@@ -6,13 +6,13 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-    /**
-     * @author Yulia Piavka <yp6497@bs.amalnet.k12.il>
-     * @version 1.1
-     * @since 14/12/2020
-     * short description- the credits.
-     */
-    public class creditsActivity extends AppCompatActivity {
+/**
+ * @author Yulia Piavka <yp6497@bs.amalnet.k12.il>
+ * @version 1.1
+ * @since 14 /12/2020
+ * short description- shows the credits.
+ */
+public class creditsActivity extends AppCompatActivity {
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
@@ -23,12 +23,12 @@ import android.view.MenuItem;
         @Override
         public boolean onCreateOptionsMenu(Menu menu) {
 
-            menu.add("Main Activity");
+            menu.add("Main screen");
             return true;
         }
 
         /**
-         * description- if "Main Activity" selected: return back to the Main activity.
+         * description- if "Main screen" selected: return back to the Main activity.
          */
         @Override
         public boolean onOptionsItemSelected(MenuItem item) {
